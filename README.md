@@ -21,7 +21,7 @@ cd flusion_city/
 ```
 
 1. Download and install Miniconda: <br/> 
-You'll need to be on a development or compute node to run any code on TACC. If you see 
+You'll need to be on a development or compute node to run any code on TACC. 
 ```
 idev -N 1 -n 1 -t 02:00:00 -p development -A YOUR_ALLOCATION  ## getting on a development node first
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
