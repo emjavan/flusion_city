@@ -13,10 +13,15 @@ This is a modified version of the Flusion model (https://github.com/reichlab/flu
 I ran everything on the TACC cluster (UT Austin cluster) and needed to install Miniconda in your directory.
 
 0. Fork and clone repository
-`cd flusion_city/`
 
-1. Download and install Miniconda:
-You'll need to be on a development or compute node to run any code.
+
+```
+git clone YOUR_REPO_HTML
+cd flusion_city/
+```
+
+1. Download and install Miniconda: <br/> 
+You'll need to be on a development or compute node to run any code on TACC. If you see 
 ```
 idev -N 1 -n 1 -t 02:00:00 -p development -A YOUR_ALLOCATION  ## getting on a development node first
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
