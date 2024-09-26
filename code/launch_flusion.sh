@@ -11,8 +11,8 @@
 #SBATCH --mail-user=dongah.kim@utexas.edu   # Email for notifications
 #SBATCH --mail-type=all                     # Type of notifications, begin, end, fail, all
 
-#conda activate flusion
-module load python
+# activate conda environment
+conda activate flusion
 
 # Load launcher
 module load launcher
