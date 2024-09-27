@@ -5,14 +5,12 @@
 #SBATCH -e flusion_city.%j.e                # Name of stderr output file (%j expands to jobId)
 #SBATCH -p small                            # Queue name, small is for <=2 nodes, normal 3+
 #SBATCH -N 1                  	            # Total number of nodes requested
-#SBATCH -n 5                                # Total number of tasks to run 56 cores/node (28 per socket)
-#SBATCH -t 00:02:00            	            # Run time (hh:mm:ss)
+#SBATCH -n 6                                # Total number of tasks to run 56 cores/node (28 per socket)
+#SBATCH -t 02:00:00            	            # Run time (hh:mm:ss)
 #SBATCH -A A-ib1                            # Allocation name
-#SBATCH --mail-user=dongah.kim@utexas.edu   # Email for notifications
+#SBATCH --mail-user=emjavan@utexas.edu      # Email for notifications
 #SBATCH --mail-type=all                     # Type of notifications, begin, end, fail, all
 
-# activate conda environment
-conda activate flusion
 
 # Load launcher
 module load launcher
