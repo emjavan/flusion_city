@@ -1,6 +1,6 @@
-source ~/.bashrc && conda init && conda activate flusion && python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr --short_run
-source conda flusion && python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr_nhsn_only --short_run
-source ~/.bashrc && conda activate flusion && python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr_nhsn_city_only --short_run
-conda init && conda activate flusion && python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr --short_run
-conda init && conda activate flusion && python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr_nhsn_only --short_run
-conda init && conda activate flusion && python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr_nhsn_city_only --short_run
+python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr --short_run
+python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr_nhsn_only --short_run
+python code/gbq_city/gbq.py --ref_date 2023-09-30 --model_name gbq_qr_nhsn_city_only --short_run
+python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr --short_run
+python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr_nhsn_only --short_run
+python code/gbq_city/gbq.py --ref_date 2023-10-07 --model_name gbq_qr_nhsn_city_only --short_run

@@ -11,6 +11,8 @@
 #SBATCH --mail-user=emjavan@utexas.edu      # Email for notifications
 #SBATCH --mail-type=all                     # Type of notifications, begin, end, fail, all
 
+source ~/.bashrc
+conda activate flusion
 
 # Load launcher
 module load launcher
